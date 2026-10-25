@@ -1,7 +1,0 @@
-name: probe-new
-on: { workflow_dispatch: {} }
-permissions: { contents: read }
-jobs:
-  audit:
-    uses: Cardhansa/komodo/.github/workflows/dependency-audit.yml@c62616a0d8f1550dcc1a19da861de910255abf8f
-    secrets: inherit
